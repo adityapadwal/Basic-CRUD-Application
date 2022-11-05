@@ -1,0 +1,29 @@
+Two folders are created 
+1. Client 
+2. Server
+
+make react app in client folder
+make node app in server folder 
+
+=> Server folder 
+npm init
+
+npm install express body-parser mysql
+npm install nodemon 
+
+node app.js      // to run 
+
+npm run devStart
+
+If you're not connecting to mysql, open the MySQL Workbench and execute the following query:
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+Change the password to your root password.
+After that, don't forget to run this query:
+
+flush privileges;
+
+-> useState
+-> useEffect 
+-> axios
